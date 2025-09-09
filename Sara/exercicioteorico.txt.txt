@@ -3,7 +3,7 @@
 
 
 1. O que são tags semânticas? Por que devemos utilizá-las? Dê exemplos de tags
-semânticas.
+semânticas..
 
 Resposta: São elementos html que dão significado ao conteúdo ( <header>, <footer>), deixando o site mais organizado e fácil de entender pelos navegadores.
 
