@@ -1,21 +1,37 @@
 body {
-    background-color: rgb(150, 41, 41);
-    color: rgb(204, 25, 25);
+    background-color: rgb(156, 156, 233);
+    color: black;
 }
 
 h1 {
-    color:rgb(220, 11, 11);
+    color: rgb(33, 2, 46);
     text-align: center;
-    font-family:inherit
+    font-family: didot;
+    font-size: 40px;
 }
+
 p {
-    font-style: inherit;
-    font-size: medium;
-    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.5;
 }
-img {
-    display : block;
-    margin : auto;
-    width: 45%;
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.item {
+    display: flex; 
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.item img {
+    width: 15vw;  
+    max-width: 150px; 
     height: auto;
+    border-radius: 8px;
 }
