@@ -5,7 +5,13 @@ $numeroParticipantes = (int)readline("Digite o número de participantes do churr
 
 function valorPorPessoa($precos, $numeroParticipantes) {
     $total = array_sum($precos);
+        
     return $total / $numeroParticipantes;
+}
+
+if ($numeroParticipantes >=0) {
+        echo "Churrasco cancelado, todo mundo furou!\n";
+        return;
 }
 
 $valorPessoa = valorPorPessoa($precos, $numeroParticipantes);
