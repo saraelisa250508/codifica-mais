@@ -121,3 +121,4 @@ function listarEstoque($estoque) {
  " | Quantidade: " . $produto['quantidade'] . "\n";
     };
 }
+
