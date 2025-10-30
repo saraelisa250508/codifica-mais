@@ -1,0 +1,4 @@
+SELECT
+    nome_completo,
+    email
+FROM anfitrioes;
