@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Programacao</title>
+  </head>
+    <body>
+      <h1>O que faz um estilista?</h1>
+    <p>Um estilista cria peças de vestuário e coleções, ele cria A MODA!</p>
+    <img src="estilista.pngg.jpg"alt="estilista">
+    </body>
+</html>

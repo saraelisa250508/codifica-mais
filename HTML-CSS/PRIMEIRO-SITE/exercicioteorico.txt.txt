@@ -1,0 +1,65 @@
+ Exercício teórico:
+
+
+
+1. O que são tags semânticas? Por que devemos utilizá-las? Dê exemplos de tags
+semânticas..
+
+Resposta: São elementos html que dão significado ao conteúdo ( <header>, <footer>), deixando o site mais organizado e fácil de entender pelos navegadores.
+
+
+
+
+2. O que são elementos inline? Dê exemplos.
+
+Resposta: São os elementos que ficam na mesma linha do texto, sem quebrar a estrutura.
+Exemplos: <a>, <span>, <strong> e <img>.
+
+
+
+
+3. Descreva a utilização do atributo ‘alt’ em imagens no HTML e por que é importante
+utilizar esse atributo.
+
+Resposta: Ele é a descrição da imagem e serve para a acessibilidade, aparece se a imagem não carregar, tem importância pois ajuda o Google a entender o conteúdo.
+
+
+
+
+4. Explique o conceito de herança em CSS. Dê exemplo utilizando a propriedade
+‘color’.
+
+Resposta: Esse conceito significa que algumas propriedades aplicadas a um elemento passam automaticamente para os elementos dentro dele.
+Exemplo:
+
+<style>
+  body {
+    color: blue;
+  }
+</style>
+
+<body>
+ <h1>Título de exemplo</h1>
+ <p>Parágrafo</p>
+</body>
+
+
+
+
+5. Explique e dê exemplos a diferença entre medidas absolutas e relativas
+
+Resposta: As medidas absolutas são valores fixos, não mudam dependendo do tamanho da tela. Ex: px, cm, mm, in.
+Já as medidas relativas, são valores que se adaptam ao contexto ou ao tamanho do elemento/tela. Ex: %, em, rem, vw, vh.
+
+
+
+
+
+6. Explique o que é a unidade de medida Vw (viewport width) e Vh (viewport height) e a
+diferença entre elas
+
+Resposta: São as medidas que definem o tamanho da tela (viewport):
+Vw = largura da tela
+Vh = Altura da tela
+
+
