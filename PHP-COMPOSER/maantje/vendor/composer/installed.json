@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "maantje/charts",
+            "version": "v0.8.1",
+            "version_normalized": "0.8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maantje/charts.git",
+                "reference": "1903a7732d8d968fe4e51a6c08c9fbeed20676f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maantje/charts/zipball/1903a7732d8d968fe4e51a6c08c9fbeed20676f6",
+                "reference": "1903a7732d8d968fe4e51a6c08c9fbeed20676f6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "laravel/pint": "^1.17",
+                "mpdf/mpdf": "^8.2",
+                "pestphp/pest": "^2.35",
+                "phpstan/phpstan": "^1.12",
+                "symfony/var-dumper": "^7.2"
+            },
+            "time": "2025-08-09T10:42:18+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Maantje\\Charts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jamie Schouten",
+                    "email": "j4mie@hey.com"
+                }
+            ],
+            "description": "SVG Charts in PHP",
+            "support": {
+                "issues": "https://github.com/maantje/charts/issues",
+                "source": "https://github.com/maantje/charts/tree/v0.8.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/maantje",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../maantje/charts"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
