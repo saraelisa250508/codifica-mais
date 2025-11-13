@@ -1,0 +1,6 @@
+{
+    "name": "sara/carbon-exercicio",
+    "require": {
+        "nesbot/carbon": "*"
+    }
+}
