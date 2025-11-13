@@ -11,7 +11,7 @@ $barChart = new Chart(
             bars: [
                new Bar(name: 'Jan', value: 222301, color: '#FF6384'),
                new Bar(name: 'Feb', value: 189242, color: '#36A2EB'),
-               new Bar(name: 'Mar', value: 144922, color: '#FFCE56'),
+               new Bar(name: 'Mar', value: 144922, color: '#ffc637ff'),
 
             ],
         ),
