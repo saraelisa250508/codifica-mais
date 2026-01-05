@@ -1,0 +1,7 @@
+{
+  "name": "codifica/pdo-login-system",
+  "type": "project",
+  "require": {
+    "php": ">=7.4"
+  }
+}
