@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: black;
+     margin-right: 30px; 
+}
+header {
+    background-color: #8645a0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.menu a {
+    color: white;
+    margin: 15px;
+    font-weight: bold;
+    text-decoration: none; /* tira o sublinhado */
+}
+.menu a:hover {
+    text-decoration: none;
+}
+ main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.topo-pesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.foto-produto {
+    text-align: center;
+    width: 200px;
+}
+.foto-produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.foto-produto p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #9b59b6;
+}
+.pesquisa {
+    flex: 1;
+    text-align: center;
+    padding: 0 30px;
+}
+.pesquisa input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.pesquisa button {
+    padding: 10px 20px;
+    background-color: #9b59b6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pesquisa button:hover {
+    background-color: #8e44ad;
+}
+.produtos {
+    margin-top: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* junta as bordas */
+    margin-top: 20px;
+}
+th {
+    background-color: #9b59b6;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+td a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+td a:hover {
+    text-decoration: underline;
+}
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.formulario h2 {
+    text-align: center;
+    color: #9b59b6;
+}
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.botao {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  text-align: center;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #27ae60;
+}
+.botao-cinza {
+    background-color: #6b9598;
+}
+.botao-cinza:hover {
+    background-color: #7f8c8d;
+}
+.mensagem {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+.sucesso {
+    background-color: #d4edda;
+    border: 1px solid #27ae60;
+    color: #105521;
+}
+.erro {
+    background-color: #f8d7da;
+    border: 1px solid #b73628;
+    color: #721c24;
+}
+.sem-produtos {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+}
+footer {
+    background-color: #9b59b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+/*responsivo*/
+@media (max-width: 768px) {
+
+.foto-produto {
+   display: none;
+}
+.topo-pesquisa {
+    flex-direction: column;
+}
+.pesquisa {
+    padding: 0;
+    width: 100%;
+}
+.pesquisa form {
+    flex-direction: column;
+}
+.pesquisa input[type="text"] {
+    width: 100%;
+}
+table {
+    font-size: 12px;
+}
+th {
+    padding: 8px
+}
+td {
+    padding: 8px;
+}
+.botoes {
+    flex-direction: column;
+}
+.titulo-secao {
+    flex-direction: column;
+    gap: 10px;
+}
+}
