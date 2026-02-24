@@ -2,7 +2,7 @@
 
 $servidor = "localhost";     
 $usuario  = "root";        
-$senha = "Saramaite2520*"; 
+$senha = ""; 
 $banco = "estoque_cosmeticos"; 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 if ($conexao === false) {
