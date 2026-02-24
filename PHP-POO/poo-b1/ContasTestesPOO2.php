@@ -184,5 +184,3 @@ $contaPoupanca->setPorcentagemRendimento(0.05);
 $contaPoupanca->aplicarRendimento();
 $contaPoupanca->exibirSaldo();
 
-
-
