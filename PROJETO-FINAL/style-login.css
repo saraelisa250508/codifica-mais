@@ -1,0 +1,68 @@
+/* ===========================
+   CSS DO LOGIN
+   =========================== */
+
+body.login {
+    font-family: Arial, sans-serif;
+    background-color: #9b7bb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login .caixa-do-formulario {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 35px;
+    width: 320px;
+    text-align: center;
+}
+
+.login h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.login .botao-entrar {
+    background-color: #9cd4f8;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+}
+
+.login a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #840b64;
+    text-decoration: underline;
+}
+
+.login .deslogar {
+    background-color: #ffcccc;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}

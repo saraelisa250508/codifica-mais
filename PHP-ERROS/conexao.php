@@ -8,7 +8,7 @@ $dataHora = date("d/m/Y H:i:s");
 //dados so
 $servidor = "localhost";
 $usuario  = "root";
-$senha    = "Saramaite2520*";
+$senha    = "";
 $banco    = "estoque_cosmeticos";
 
 
